@@ -19,7 +19,7 @@ abstract class Automobile : Transport
     public string mark { get; set; }
     public override string GetTransportInfo()
     {
-        return $"{mark} грузоподъемностью {сapacity} кг может проехать {distance} км";
+        return $"{ mark } грузоподъемностью { сapacity } кг может проехать { distance } км";
     }
 }
 
@@ -28,7 +28,7 @@ abstract class Airplane : Transport
     public string mark { get; set; }
     public override string GetTransportInfo()
     {
-        return $"{mark} грузоподъемностью {сapacity} кг может пролететь {distance } км";
+        return $"{ mark } грузоподъемностью { сapacity } кг может пролететь { distance } км";
     }
 }
 
@@ -37,7 +37,7 @@ abstract class Ship : Transport
     public string mark { get; set; }
     public override string GetTransportInfo()
     {
-        return $"{mark} грузоподъемностью {сapacity} кг может пройти {distance} км по воде";
+        return $"{ mark } грузоподъемностью { сapacity } кг может пройти { distance } км по воде";
     }
 }
 
